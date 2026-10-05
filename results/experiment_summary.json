@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "source_dataset": "Enron Spam Corpus",
+    "target_dataset": "SpamAssassin 2 Corpus (Easy Ham 2 & Spam 2)",
+    "enron_train_samples": 26932,
+    "enron_test_samples": 6733,
+    "spamassassin_samples": 2799,
+    "vocab_size": 10000
+  },
+  "vocabulary_drift": {
+    "enron_vocab_features": 10000,
+    "sa_unique_tokens": 42539,
+    "shared_tokens": 5126,
+    "jaccard_similarity": 0.10811380844915951,
+    "sa_token_oov_rate": 0.6615616670882939,
+    "sa_type_oov_rate": 0.8794988128540868
+  },
+  "model_evaluations": {
+    "Multinomial_NB": {
+      "Enron_Train": {
+        "accuracy": 0.9857789989603446,
+        "balanced_accuracy": 0.9857386896011444,
+        "precision": 0.9840034901476041,
+        "recall": 0.9880987149532711,
+        "f1": 0.9860468505227877,
+        "false_positive_rate": 0.01662133575098217,
+        "false_negative_rate": 0.011901285046728972,
+        "tn": 13016,
+        "fp": 220,
+        "fn": 163,
+        "tp": 13533,
+        "total": 26932,
+        "roc_auc": 0.998562910237726,
+        "pr_auc": 0.9984788593685664,
+        "brier_score": 0.011471324148373818
+      },
+      "Enron_Test_InDomain": {
+        "accuracy": 0.983068468736076,
+        "balanced_accuracy": 0.9831092030231907,
+        "precision": 0.9859072225484439,
+        "recall": 0.9807242990654206,
+        "f1": 0.9833089311859443,
+        "false_positive_rate": 0.014505893019038985,
+        "false_negative_rate": 0.019275700934579438,
+        "tn": 3261,
+        "fp": 48,
+        "fn": 66,
+        "tp": 3358,
+        "total": 6733,
+        "roc_auc": 0.9984834090260774,
+        "pr_auc": 0.9983744476073629,
+        "brier_score": 0.012456640315447109
+      },
+      "SpamAssassin_CrossDomain": {
+        "accuracy": 0.5780635941407646,
+        "balanced_accuracy": 0.5785061559339896,
+        "precision": 0.5424657534246575,
+        "recall": 0.9914163090128756,
+        "f1": 0.7012395648874272,
+        "false_positive_rate": 0.8344039971448965,
+        "false_negative_rate": 0.008583690987124463,
+        "tn": 232,
+        "fp": 1169,
+        "fn": 12,
+        "tp": 1386,
+        "total": 2799,
+        "roc_auc": 0.9382943820018196,
+        "pr_auc": 0.9513570632567396,
+        "brier_score": 0.3307638058914231
+      },
+      "SA_EasyHam2_HamOnly": {
+        "accuracy": 0.1655960028551035,
+        "balanced_accuracy": 0.1655960028551035,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "false_positive_rate": 0.8344039971448965,
+        "false_negative_rate": 0.0,
+        "tn": 232,
+        "fp": 1169,
+        "fn": 0,
+        "tp": 0,
+        "total": 1401,
+        "roc_auc": NaN,
+        "pr_auc": 0.0,
+        "brier_score": 0.6551516531289069
+      },
+      "SA_Spam2_SpamOnly": {
+        "accuracy": 0.9914163090128756,
+        "balanced_accuracy": 0.9914163090128756,
+        "precision": 1.0,
+        "recall": 0.9914163090128756,
+        "f1": 0.9956896551724138,
+        "false_positive_rate": 0.0,
+        "false_negative_rate": 0.008583690987124463,
+        "tn": 0,
+        "fp": 0,
+        "fn": 12,
+        "tp": 1386,
+        "total": 1398,
+        "roc_auc": NaN,
+        "pr_auc": 1.0,
+        "brier_score": 0.005679847393773106
+      },
+      "Generalization_Delta": {
+        "accuracy_drop": 0.4050048745953114,
+        "accuracy_relative_drop_pct": 41.19803324747291,
+        "f1_drop": 0.2820693662985171,
+        "f1_relative_drop_pct": 28.685732159304226,
+        "fpr_increase": 0.8198981041258575,
+        "fnr_increase": -0.010692009947454974
+      }
+    }
+  }
+}

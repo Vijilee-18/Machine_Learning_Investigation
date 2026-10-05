@@ -1,0 +1,218 @@
+{
+  "false_positives": [
+    {
+      "prob": 0.9866849179019884,
+      "snippet": "re and away we go >> fear not poor tom between the pain endorphins and or massive >> amounts of drugs she should remember little of the process her body >> is designed to block out the whole event so that she can tell other >> women oh having the baby wasnt so bad you should have one why >> else wou",
+      "influential_features": [
+        [
+          "sex",
+          0.6271747598495594
+        ],
+        [
+          "women",
+          0.34762280195312445
+        ],
+        [
+          "pain",
+          0.3195001738453962
+        ],
+        [
+          "male",
+          0.20789476562383077
+        ],
+        [
+          "girls",
+          0.20671966205886266
+        ],
+        [
+          "men",
+          0.17724908402666917
+        ],
+        [
+          "hey",
+          0.17559371182033878
+        ],
+        [
+          "drugs",
+          0.17549668412762093
+        ]
+      ]
+    },
+    {
+      "prob": 0.9645532544590627,
+      "snippet": "re ilug social online bookstores on tue aug < > < > at < > < > 09pm < > joe desbonnet wrote > i ve found micromail in cork quite good play247 com seems to be a good site for dvd s prices are in sterling but they have free shipping plus they re selling buffy season < > dvd s for < > < > less then bla",
+      "influential_features": [
+        [
+          "dvd",
+          0.3624079272942244
+        ],
+        [
+          "online",
+          0.3494968693284864
+        ],
+        [
+          "man",
+          0.3308925224424546
+        ],
+        [
+          "quality",
+          0.3266214981130371
+        ],
+        [
+          "cheap",
+          0.323072672340065
+        ],
+        [
+          "site",
+          0.2766785343665139
+        ],
+        [
+          "free",
+          0.241000238404215
+        ],
+        [
+          "tue",
+          0.19869956825137114
+        ]
+      ]
+    },
+    {
+      "prob": 0.9626967747007442,
+      "snippet": "re and away we go on sat < > jul < > adam l beberg wrote > on sat < > jul < > cdale wrote > > > a true geek runs to the puter to post before taking a laboring wife to > > the hospital i d kill you lol > > grats daddy o > > fear not poor tom between the pain endorphins and or massive amounts of > dru",
+      "influential_features": [
+        [
+          "sex",
+          0.4938643278797026
+        ],
+        [
+          "jul",
+          0.31074390567372573
+        ],
+        [
+          "male",
+          0.26992675060627835
+        ],
+        [
+          "pain",
+          0.2450071502379723
+        ],
+        [
+          "drugs",
+          0.22786167581756098
+        ],
+        [
+          "body",
+          0.22329102682964325
+        ],
+        [
+          "women",
+          0.18914140582284147
+        ],
+        [
+          "wife",
+          0.15913178898944122
+        ]
+      ]
+    }
+  ],
+  "false_negatives": [
+    {
+      "prob": 0.430924108524825,
+      "snippet": "your agent in saudi arabia could you please send the address of your agent in saudi arabia thanks sathar",
+      "influential_features": [
+        [
+          "thanks",
+          -1.583693809372013
+        ],
+        [
+          "send",
+          -0.27282113881344905
+        ],
+        [
+          "address",
+          -0.06661247018006593
+        ],
+        [
+          "agent",
+          0.9200448843436221
+        ]
+      ]
+    },
+    {
+      "prob": 0.4418000226607714,
+      "snippet": "please help new webcam modeling page i just got a webcam and computer for my birthday and i just finished my first homepage i added some of my modeling pictures there so if you think you can help my career please let me know i could also use some opinions on how to make my site look better if you ca",
+      "influential_features": [
+        [
+          "thanks",
+          -0.37821608503138576
+        ],
+        [
+          "know",
+          -0.3202415749258594
+        ],
+        [
+          "let know",
+          -0.28222360050830153
+        ],
+        [
+          "pictures",
+          -0.25422179254578353
+        ],
+        [
+          "sure",
+          -0.23766280343254031
+        ],
+        [
+          "added",
+          -0.21517299952065128
+        ],
+        [
+          "make sure",
+          -0.21121251081374715
+        ],
+        [
+          "think",
+          -0.17147839041663193
+        ]
+      ]
+    },
+    {
+      "prob": 0.49374678123217824,
+      "snippet": "you have been specially selected to qualify for the following premium vacation package and pentium pc giveaway to review the details of the please click on the link with the confirmation number below < > confirmation number lh340 please confirm your entry within < > hours of receipt of this confirma",
+      "influential_features": [
+        [
+          "questions",
+          -0.498916122559274
+        ],
+        [
+          "vacation",
+          -0.41434836881541226
+        ],
+        [
+          "following",
+          -0.30036364190009557
+        ],
+        [
+          "number",
+          -0.17769967324065003
+        ],
+        [
+          "confirmation",
+          -0.16850371277683274
+        ],
+        [
+          "review",
+          -0.14588272494329496
+        ],
+        [
+          "mailto",
+          -0.14527311481835203
+        ],
+        [
+          "subject",
+          -0.13221237970467176
+        ]
+      ]
+    }
+  ]
+}
